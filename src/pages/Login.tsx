@@ -15,7 +15,7 @@ import { signInWithPopup } from "firebase/auth";
 import { GoogleAuthProvider } from "firebase/auth";
 import { Image } from "@chakra-ui/react";
 import { auth, googleAuthProvider } from "../lib/firebase";
-import { } from 'react-firebase-hooks/auth'
+import {} from "react-firebase-hooks/auth";
 const Login = () => {
   const toast = useToast();
   const signInWithGoogle = async () => {
